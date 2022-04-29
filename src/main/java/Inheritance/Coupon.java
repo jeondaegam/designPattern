@@ -36,7 +36,7 @@ class LimitPriceCoupon extends Coupon {
     }
 
     // 재정의
-    @java.lang.Override
+    @Override
     public int calculateDiscountedPrice(int price) {
         if (price < limitPrice) return price;
         return super.calculateDiscountedPrice(price);
