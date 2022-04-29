@@ -18,3 +18,12 @@ public class Member {
         return expiryDate;
     }
 }
+
+class Date {
+
+    public long getDate() {
+        return date;
+    }
+
+    long date;
+}
